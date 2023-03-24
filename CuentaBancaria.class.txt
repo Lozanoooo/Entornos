@@ -8,11 +8,12 @@ class CuentaBancaria
 
 	//Metodos
 	
-	public CuentaBancaria(String numCuenta,String nomTitular,double saldo)
+	public CuentaBancaria(String numCuenta,String nomTitular,double saldo,int tipointereses)
 	{
 		this.numCuenta = numCuenta;
 		this.nomTitular = nomTitular;
 		ingreso(saldo);
+		this.tipointereses = tipointereses
 			}
 	
 	////////////////////////////////////////////////////////////////////////////
